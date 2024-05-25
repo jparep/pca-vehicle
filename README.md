@@ -30,14 +30,14 @@ The dataset used in this project is the Vehicle dataset from the UCI Machine Lea
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/vehicle-pca-visualization.git
-    cd vehicle-pca-visualization
+    git clone https://github.com/jparep/pca-vehicle.git
+    cd pca-vehicle
     ```
 
 2. Create and activate a virtual environment (optional but recommended):
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    conda env create -f environment.yml
+    conda activate pcaenv
     ```
 
 3. Install the required packages:
